@@ -1,0 +1,78 @@
+menu{
+	height:25px;
+	
+	background-color:black;
+	color:white;
+}
+
+body{
+	background-color:#E3E2DF;
+
+	margin:0;
+}
+
+.container {
+	width:100vw;
+	height:170vh;
+
+	display:grid;
+
+	grid-template-columns: 1200px 300px;
+	grid-template-rows: 350px 170px 30px 520px 170px;
+
+	gap:10px;
+	padding:10px;
+	box-sizing:border-box;
+
+
+	}
+
+	.container div{
+		padding:10px;
+		
+		}
+
+	.header{
+		grid-row-start:1;
+		grid-row-end:3;
+		background-color:white;
+	}
+
+	.content{
+		grid-row-start:3;
+		grid-row-end:5;
+		background-color:white;
+	}
+
+	.aboutme{
+		grid-row-start:1;
+		grid-row-end:3;
+		background-color:white;
+
+	}
+	
+	.favorite{
+		grid-row-start:3;
+		grid-row-end:6;
+		background-color:white;
+		
+	}
+	
+
+
+	h1{
+	font-family: Arial, Helvetica, sans-serif;
+
+	}
+
+	a{
+		color:white;
+	}
+
+	footer{
+		background-color:white;
+		height: 150px;
+		font-size:20px
+	}
+
+
